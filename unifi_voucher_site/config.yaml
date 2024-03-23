@@ -1,0 +1,28 @@
+name: "UniFi Voucher Site"
+description: "A small UniFi Voucher Site add-on for simple voucher creation"
+version: "1.0.0"
+slug: "unifi_voucher_site"
+image: glenndehaan/unifi-voucher-site
+init: false
+arch:
+  - aarch64
+  - amd64
+ingress: true
+ingress_port: 3000
+panel_icon: mdi:wifi-lock-open
+environment:
+  DISABLE_AUTH: 'true'
+options:
+  unifi_ip: '192.168.1.1'
+  unifi_port: 443
+  unifi_username: 'admin'
+  unifi_password: ''
+  unifi_site_id: 'default'
+  voucher_types: '480,0,,,;'
+schema:
+  unifi_ip: str
+  unifi_port: port
+  unifi_username: str
+  unifi_password: password
+  unifi_site_id: str
+  voucher_types: str

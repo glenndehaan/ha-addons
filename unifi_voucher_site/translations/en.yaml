@@ -1,0 +1,22 @@
+configuration:
+  unifi_ip:
+    name: UniFi IP
+    description: The IP address to your UniFi OS Console
+  unifi_port:
+    name: UniFi Port
+    description: The port of your UniFi OS Console, this could be 443 or 8443
+  unifi_username:
+    name: UniFi Username
+    description: The username of a local UniFi OS account
+  unifi_password:
+    name: UniFi Password
+    description: The password of a local UniFi OS account
+  unifi_site_id:
+    name: UniFi Site ID
+    description: The UniFi Site ID
+  voucher_types:
+    name: Voucher Types
+    description: |
+      Voucher Types, format: expiration in minutes (required),single-use or multi-use vouchers value - '0' is for multi-use - '1' is for single-use (optional),upload speed limit in kbps (optional),download speed limit in kbps (optional),data transfer limit in MB (optional)
+      To skip a parameter just but nothing in between the comma's
+      After a voucher type add a semicolon, after the semicolon you can start a new voucher type
