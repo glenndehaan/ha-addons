@@ -5,7 +5,7 @@ _A small UniFi Voucher Site add-on for simple voucher creation_
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 
-![Screenshot](https://github.com/glenndehaan/ha-addons/assets/7496187/3a2aed6f-a1ed-4b1d-a17a-a6800775833f)
+![Screenshot](https://github.com/glenndehaan/ha-addons/assets/7496187/833d031f-aa78-403e-b5fc-d97b653b6fb1)
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
