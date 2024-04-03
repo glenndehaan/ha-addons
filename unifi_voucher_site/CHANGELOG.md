@@ -1,5 +1,17 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.1.0
+
+- Refactored unifi.js to separate logic
+- Updated application header
+- Fixed incorrect screen-reader text
+- Updated sync button text
+- Implemented last sync date/time
+- Implemented cache util
+- Fixed missing vouchers check to prevent 'headers are already send' error
+- Fixed missing cache sync on api voucher creation
+- Implemented auto sync every 15 minutes
+
 ## 2.0.0
 
 - Updated 404 and login branding/layout
