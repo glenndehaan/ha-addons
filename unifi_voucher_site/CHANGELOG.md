@@ -1,5 +1,14 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.2.0
+
+- Implemented reusable UniFi sessions
+- Fixed UniFi login rate-limit trigger
+- Implemented bulk voucher generation
+- Implemented revoke/delete voucher function
+- Added grayscale logo
+- Fixed issue where headers are send 2 times
+
 ## 2.1.0
 
 - Refactored unifi.js to separate logic
