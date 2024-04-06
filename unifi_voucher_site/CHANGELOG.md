@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.3.1
+
+- Updated dependencies
+- Removed unneeded dependency
+
 ## 2.3.0
 
 - Updated screenshots

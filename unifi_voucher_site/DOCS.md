@@ -5,7 +5,7 @@ This Home Assistant add-on allows you to easily set up a voucher-based authentic
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 
-![Screenshot](https://github.com/glenndehaan/ha-addons/assets/7496187/833d031f-aa78-403e-b5fc-d97b653b6fb1)
+![Screenshot](https://github.com/glenndehaan/ha-addons/assets/7496187/f94ce414-0987-4469-9cdd-3348520e65e5)
 
 ## Installation
 
