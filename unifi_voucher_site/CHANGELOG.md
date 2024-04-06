@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.3.2
+
+- Fixed padding issue for amount field
+
 ## 2.3.1
 
 - Updated dependencies
