@@ -1,5 +1,13 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.3.0
+
+- Updated screenshots
+- Implemented color-scheme script to force browser color-scheme
+- Implemented print functionality
+- Updated README.md
+- Implemented print route
+
 ## 2.2.0
 
 - Implemented reusable UniFi sessions
