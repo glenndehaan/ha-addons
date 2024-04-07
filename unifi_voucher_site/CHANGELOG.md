@@ -1,5 +1,14 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.4.0
+
+- Fixed missing logo link
+- Implemented custom voucher type
+- Implemented custom voucher fields
+- Fixed divider visibility on dark mode
+- Changed default VOUCHER_TYPES to single-use voucher type
+- Implemented VOUCHER_CUSTOM environment variable
+
 ## 2.3.2
 
 - Fixed padding issue for amount field
