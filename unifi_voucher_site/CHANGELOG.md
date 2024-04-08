@@ -1,5 +1,13 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.4.1
+
+- Fixed SERVICE_WEB variable not working correctly
+- Implemented missing HA voucher_custom config setting
+- Fixed VOUCHER_CUSTOM variable not working correctly
+- Fixed an issue where HA voucher_types config was not used during validation causing an incorrect error
+- Added bytes conversion
+
 ## 2.4.0
 
 - Fixed missing logo link
