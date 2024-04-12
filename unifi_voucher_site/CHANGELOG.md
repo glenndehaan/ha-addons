@@ -1,5 +1,19 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.5.0
+
+- Added the jsonwebtoken package
+- Implemented a web jwt verify flow
+- Added missing JSON responses for api auth flows
+- Added jwt module
+- Moved bytes.js, logo.js, time.js and types.js to utils folder
+- Updated README.md
+- Implemented HA config check to allow API service configuration
+- Implemented JWT initialization
+- Replaced authorization cookie contents with JWT token
+- Implemented /api/vouchers endpoint
+- Updated /api endpoints list
+
 ## 2.4.1
 
 - Fixed SERVICE_WEB variable not working correctly

@@ -23,3 +23,6 @@ configuration:
   voucher_custom:
     name: Custom Voucher
     description: Allow users to create custom vouchers types within the UI
+  service_api:
+    name: API Service
+    description: Enables/disables the API Service
