@@ -1,5 +1,14 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.5.1
+
+- Updated ejs dependency
+- Fixed docker healthcheck IPv4 binding
+- Reworked unifi.js settings/config sections
+- Removed 1-hour session timeout from unifi.js
+- Implemented retry params for all unifi.js functions
+- Implemented re-authentication functions within catch blocks in unifi.js
+
 ## 2.5.0
 
 - Added the jsonwebtoken package
