@@ -1,6 +1,6 @@
 name: "UniFi Voucher Site"
 description: "A small UniFi Voucher Site add-on for simple voucher creation"
-version: "2.5.1"
+version: "2.5.2"
 slug: "unifi_voucher_site"
 image: glenndehaan/unifi-voucher-site
 init: false
@@ -23,6 +23,7 @@ options:
   voucher_types: '480,1,,,;'
   voucher_custom: true
   service_api: false
+  log_level: 'info'
 schema:
   unifi_ip: str
   unifi_port: port
@@ -32,3 +33,4 @@ schema:
   voucher_types: str
   voucher_custom: bool
   service_api: bool
+  log_level: "list(error|warn|info|debug|trace)"

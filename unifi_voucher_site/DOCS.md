@@ -26,7 +26,12 @@ unifi_username: admin
 unifi_password: ""
 unifi_site_id: default
 voucher_types: 480,0,,,;
+voucher_custom: true
+service_api: false
+log_level: info
 ```
+
+> Attention!: We recommend only using Local UniFi accounts due to short token lengths provided by UniFi Cloud Accounts. Also UniFi Cloud Accounts using 2FA won't work!
 
 ## Usage
 

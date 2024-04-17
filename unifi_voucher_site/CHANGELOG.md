@@ -1,5 +1,17 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.5.2
+
+- Implemented LOG_LEVEL environment variable
+- Implemented log_level HA variable
+- Implemented log level based on user preference
+- Changed UniFi stack trace output from error to debug
+- Removed duplicate cache error log
+- Implemented internal build number
+- Updated README.md
+- Added account warning to README.md
+- Output build version on application start
+
 ## 2.5.1
 
 - Updated ejs dependency

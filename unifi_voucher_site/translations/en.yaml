@@ -26,3 +26,6 @@ configuration:
   service_api:
     name: API Service
     description: Enables/disables the API Service
+  log_level:
+    name: Log Level
+    description: Sets the application Log Level
