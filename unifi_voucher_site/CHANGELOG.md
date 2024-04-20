@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.5.3
+
+- Updated the README.md
+- Updated the 'Share' copy to reflect 'Copy to Clipboard' function
+- Updated the 'Copy to Clipboard' icon
+
 ## 2.5.2
 
 - Implemented LOG_LEVEL environment variable
