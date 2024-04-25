@@ -1,5 +1,17 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.6.0
+
+- Implemented guests cache
+- Implemented guests function within unifi.js
+- Updated app screenshots
+- Updated manifest.json
+- Added details.ejs component
+- Implemented voucher detail slide-over
+- Updated cache.js logic to fetch guests
+- Updated README.md
+- Implemented voucher detail component route
+
 ## 2.5.3
 
 - Updated the README.md
