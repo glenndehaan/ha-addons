@@ -1,5 +1,13 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.6.1
+
+- Removed unused css
+- Added a robots.txt
+- Attempt to block iOS from adding invalid telephone link
+- Added last sync to guest details
+- Changed DateTimeFormat from en-US to en-GB
+
 ## 2.6.0
 
 - Implemented guests cache
