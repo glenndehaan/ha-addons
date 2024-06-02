@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.6.2
+
+- Updated Dependencies
+- Upgraded Alpine to 3.20
+
 ## 2.6.1
 
 - Removed unused css
