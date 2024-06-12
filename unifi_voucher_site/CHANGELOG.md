@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.6.3
+
+- Updated Dependencies
+- Removed unused 'uuid' package
+- Fixed text color within select dropdown on Chromium based browsers on Windows using Dark Mode
+
 ## 2.6.2
 
 - Updated Dependencies
