@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.6.4
+
+- Updated Dependencies
+- Updated GitHub actions
+
 ## 2.6.3
 
 - Updated Dependencies
