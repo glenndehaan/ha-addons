@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.7.3
+
+- Fixed create button copy
+- Added email forum spinner
+
 ## 2.7.2
 
 - Hide email button when mail function is disabled
