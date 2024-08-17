@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.7.1
+
+- Implemented HA config parameters for mail functionality
+
 ## 2.7.0
 
 - Updated Dependencies

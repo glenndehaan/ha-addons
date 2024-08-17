@@ -1,6 +1,6 @@
 name: "UniFi Voucher Site"
 description: "A small UniFi Voucher Site add-on for simple voucher creation"
-version: "2.7.0"
+version: "2.7.1"
 slug: "unifi_voucher_site"
 image: glenndehaan/unifi-voucher-site
 init: false
@@ -23,6 +23,12 @@ options:
   voucher_types: '480,1,,,;'
   voucher_custom: true
   service_api: false
+  smtp_from: ''
+  smtp_host: ''
+  smtp_port: 25
+  smtp_secure: false
+  smtp_username: ''
+  smtp_password: ''
   log_level: 'info'
 schema:
   unifi_ip: str
@@ -33,4 +39,10 @@ schema:
   voucher_types: str
   voucher_custom: bool
   service_api: bool
+  smtp_from: str
+  smtp_host: str
+  smtp_port: port
+  smtp_secure: bool
+  smtp_username: str
+  smtp_password: password
   log_level: "list(error|warn|info|debug|trace)"

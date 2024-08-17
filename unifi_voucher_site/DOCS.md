@@ -28,6 +28,12 @@ unifi_site_id: default
 voucher_types: 480,0,,,;
 voucher_custom: true
 service_api: false
+smtp_from: ''
+smtp_host: ''
+smtp_port: 25
+smtp_secure: false
+smtp_username: ''
+smtp_password: ''
 log_level: info
 ```
 

@@ -26,6 +26,24 @@ configuration:
   service_api:
     name: API Service
     description: Enables/disables the API Service
+  smtp_from:
+    name: SMTP From
+    description: SMTP Mail from email address
+  smtp_host:
+    name: SMTP Host
+    description: SMTP Mail server hostname/ip
+  smtp_port:
+    name: SMTP Port
+    description: SMTP Mail server port
+  smtp_secure:
+    name: SMTP Secure
+    description: SMTP Mail use TLS?
+  smtp_username:
+    name: SMTP Username
+    description: SMTP Mail username
+  smtp_password:
+    name: SMTP Password
+    description: SMTP Mail password
   log_level:
     name: Log Level
     description: Sets the application Log Level
