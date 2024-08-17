@@ -1,5 +1,12 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.7.0
+
+- Updated Dependencies
+- Add axios override to patch CVE-2024-39338
+- Implemented email functionality
+- Updated README.md
+
 ## 2.6.4
 
 - Updated Dependencies
