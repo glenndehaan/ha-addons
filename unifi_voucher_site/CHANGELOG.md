@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 2.7.2
+
+- Hide email button when mail function is disabled
+
 ## 2.7.1
 
 - Implemented HA config parameters for mail functionality

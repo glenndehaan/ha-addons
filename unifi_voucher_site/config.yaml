@@ -1,6 +1,6 @@
 name: "UniFi Voucher Site"
 description: "A small UniFi Voucher Site add-on for simple voucher creation"
-version: "2.7.1"
+version: "2.7.2"
 slug: "unifi_voucher_site"
 image: glenndehaan/unifi-voucher-site
 init: false
