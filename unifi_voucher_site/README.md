@@ -1,6 +1,6 @@
 # Home Assistant Add-on: UniFi Voucher Site
 
-_A small UniFi Voucher Site add-on for simple voucher creation_
+_UniFi Voucher Site is a web-based platform for generating and managing UniFi network guest vouchers_
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]

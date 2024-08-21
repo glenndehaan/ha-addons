@@ -1,5 +1,16 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.0.0
+
+- Updated .dockerignore to remove unneeded files from container build
+- Updated docker-compose.yml with new environment variables
+- Updated README.md
+- Updated project description
+- Replaced DISABLE_AUTH with AUTH_DISABLE
+- Replaced SECURITY_CODE with AUTH_PASSWORD
+- Implemented AUTH_TOKEN for api authentication
+- Added migration guide
+
 ## 2.7.3
 
 - Fixed create button copy
