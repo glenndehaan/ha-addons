@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.0.1
+
+- Fixed missing x-ingress-path within authorization.js redirects
+- Implemented local/development .options.json config
+
 ## 3.0.0
 
 - Updated .dockerignore to remove unneeded files from container build
