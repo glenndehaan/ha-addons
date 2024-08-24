@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.1.1
+
+- Updated dependencies
+- Fix micromatch CVE-2024-4067
+- Updated README.md
+
 ## 3.1.0
 
 - Switched docker build to path based to allow .dockerignore to work
