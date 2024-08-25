@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.2.1
+
+- Updated README.md
+- Added missing en translation for printer_type
+
 ## 3.2.0
 
 - Updated 'Voucher' log information

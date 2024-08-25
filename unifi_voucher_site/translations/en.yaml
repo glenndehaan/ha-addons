@@ -26,6 +26,9 @@ configuration:
   service_api:
     name: API Service
     description: Enables/disables the API Service
+  printer_type:
+    name: Printer Type
+    description: Enables/disables the printer and set the preferred type, currently supported types - pdf
   smtp_from:
     name: SMTP From
     description: SMTP Mail from email address
