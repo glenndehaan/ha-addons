@@ -1,5 +1,13 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.2.0
+
+- Updated 'Voucher' log information
+- Implemented missing custom voucher log output
+- Implemented PRINTER_TYPE variable to prepare for future printers
+- Disabled printer function by default
+- Updated README.md
+
 ## 3.1.1
 
 - Updated dependencies
