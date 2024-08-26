@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.3.1
+
+- Implemented custom express error page
+
 ## 3.3.0
 
 - Implemented OIDC confidential client type support
