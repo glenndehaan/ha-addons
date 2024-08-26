@@ -1,5 +1,12 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.3.0
+
+- Implemented OIDC confidential client type support
+- Updated README.md
+- Added missing environment variables to docker-compose.yml
+- Ensure optional config parameters are actually optional
+
 ## 3.2.1
 
 - Updated README.md
