@@ -1,6 +1,6 @@
 name: "UniFi Voucher Site"
 description: "UniFi Voucher Site is a web-based platform for generating and managing UniFi network guest vouchers"
-version: "3.3.1"
+version: "3.4.0"
 slug: "unifi_voucher_site"
 image: glenndehaan/unifi-voucher-site
 init: false
@@ -24,6 +24,7 @@ options:
   voucher_custom: true
   service_api: false
   printer_type: ''
+  printer_ip: ''
   smtp_from: ''
   smtp_host: ''
   smtp_port: 25
@@ -41,6 +42,7 @@ schema:
   voucher_custom: bool
   service_api: bool
   printer_type: str?
+  printer_ip: str?
   smtp_from: str?
   smtp_host: str?
   smtp_port: port?

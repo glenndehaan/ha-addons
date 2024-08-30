@@ -1,5 +1,22 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.4.0
+
+- Updated README.md
+- Added Prerequisites section
+- Implemented OIDC IdP Integration Guides
+- Added Keycloak OIDC implementation guide
+- Added Authentik OIDC implementation guide
+- Updated .dockerignore
+- Migrated README.md images to .docs folder
+- Moved print logic to own module
+- Implemented ESC/POS printer support
+- Added logo_grayscale_dark.png
+- Replaced PDF logo
+- Implemented size.js util for dynamic PDF page length
+- Updated auth output log with type
+- Updated print output log with printer ip
+
 ## 3.3.1
 
 - Implemented custom express error page
