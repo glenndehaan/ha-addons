@@ -1,5 +1,13 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.4.1
+
+- Added UID Docs (Contribution by: @jlengelbrecht)
+- Updated README.md
+- Reformat some docs
+- Implemented OIDC configuration verification on application start
+- Updated auth type check
+
 ## 3.4.0
 
 - Updated README.md
