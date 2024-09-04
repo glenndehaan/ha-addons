@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.5.1
+
+- Fixed incorrect status url for Home Assistant users
+
 ## 3.5.0
 
 - Updated README.md to improve authentication explanation
