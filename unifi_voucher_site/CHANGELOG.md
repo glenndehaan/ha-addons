@@ -1,5 +1,17 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.5.0
+
+- Updated README.md to improve authentication explanation
+- Moved application startup logs to dedicated info.js module
+- Lowered log output from unifi.js
+- Created tag.ejs partial
+- Implemented dedicated application status page
+- Updated voucher.ejs to implement status link
+- Lowered log output from cache.js
+- General cleanup of server.js
+- Implemented 501 Not Implemented responses when features are not enabled or configured properly
+
 ## 3.4.1
 
 - Added UID Docs (Contribution by: @jlengelbrecht)
