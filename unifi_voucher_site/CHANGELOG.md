@@ -1,5 +1,13 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.5.2
+
+- Created variables.js to replace duplicate code
+- Moved more cache.js logs to debug level
+- Fixed incorrect internal authentication state on status page
+- Updated dependencies
+- Fixed incorrect type check on /api/voucher/:type for HA users
+
 ## 3.5.1
 
 - Fixed incorrect status url for Home Assistant users
