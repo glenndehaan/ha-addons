@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.5.3
+
+- Added logo.svg
+- Updated dependencies
+
 ## 3.5.2
 
 - Created variables.js to replace duplicate code
