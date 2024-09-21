@@ -1,5 +1,14 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.7.0
+
+- Implemented UNIFI_SSID_PASSWORD environment variable
+- Updated email template
+- Updated PDF template
+- Updated ESC/POS template
+- Updated README.md
+- Changed qr.js output based on open or password protected networks
+
 ## 3.6.0
 
 - Updated dependencies

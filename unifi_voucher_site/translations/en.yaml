@@ -17,6 +17,9 @@ configuration:
   unifi_ssid:
     name: UniFi SSID
     description: The UniFi SSID where guests need to connect to (Used within templating and 'Scan to Connect')
+  unifi_ssid_password:
+    name: UniFi SSID Password
+    description: The UniFi SSID WPA/WPA2/WPA3 Password (Can be ignored for 'Open' networks) (Used within templating and 'Scan to Connect')
   voucher_types:
     name: Voucher Types
     description: |

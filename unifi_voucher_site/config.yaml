@@ -1,6 +1,6 @@
 name: "UniFi Voucher Site"
 description: "UniFi Voucher Site is a web-based platform for generating and managing UniFi network guest vouchers"
-version: "3.6.0"
+version: "3.7.0"
 slug: "unifi_voucher_site"
 image: glenndehaan/unifi-voucher-site
 init: false
@@ -21,6 +21,7 @@ options:
   unifi_password: ''
   unifi_site_id: 'default'
   unifi_ssid: ''
+  unifi_ssid_password: ''
   voucher_types: '480,1,,,;'
   voucher_custom: true
   service_api: false
@@ -40,6 +41,7 @@ schema:
   unifi_password: password
   unifi_site_id: str
   unifi_ssid: str?
+  unifi_ssid_password: password?
   voucher_types: str
   voucher_custom: bool
   service_api: bool
