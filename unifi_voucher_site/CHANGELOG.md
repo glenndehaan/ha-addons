@@ -1,5 +1,27 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.6.0
+
+- Updated dependencies
+- Fixed missing email error response
+- Refactored email layout
+- Implemented voucher details in email layout
+- Implemented UNIFI_SSID for templating
+- Implemented email connect template
+- Implemented qr.js for Scan to Connect
+- Updated README.md
+- Updated email_example.png screenshot
+- Added extra logging to mail.js
+- Implemented pdf connect template
+- Updated pdf_example.png screenshot
+- Implemented missing unifiSsid check for PDF exports
+- Improved email margins
+- Updated escpos_example.jpg screenshot
+- Implemented qr.js buffer toggle
+- Implemented ESC/POS Scan to Connect
+- Optimized ESC/POS layout
+- Implemented qr.js error logging
+
 ## 3.5.4
 
 - Updated dependencies

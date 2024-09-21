@@ -14,6 +14,9 @@ configuration:
   unifi_site_id:
     name: UniFi Site ID
     description: The UniFi Site ID
+  unifi_ssid:
+    name: UniFi SSID
+    description: The UniFi SSID where guests need to connect to (Used within templating and 'Scan to Connect')
   voucher_types:
     name: Voucher Types
     description: |
