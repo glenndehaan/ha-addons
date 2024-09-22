@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.7.1
+
+- Moved request logger to catch OIDC callback request for debugging
+
 ## 3.7.0
 
 - Implemented UNIFI_SSID_PASSWORD environment variable
