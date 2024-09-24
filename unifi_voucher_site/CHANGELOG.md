@@ -1,5 +1,18 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.8.0
+
+- Updated OIDC documentation
+- Added Zitadel OIDC integration
+- Dependency updates
+- Fixed dark mode colors in details.ejs & email.ejs
+- Moved navigation to dedicated navigation.ejs file
+- Implemented user icon
+- Implemented user menu
+- Implemented /logout
+- Implemented Gravatar icon
+- Moved documentation and feature icons from menu to user menu
+
 ## 3.7.1
 
 - Moved request logger to catch OIDC callback request for debugging
