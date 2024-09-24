@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.8.1
+
+- Disabled userIcon for internal authentication
+
 ## 3.8.0
 
 - Updated OIDC documentation
