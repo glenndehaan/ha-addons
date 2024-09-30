@@ -1,5 +1,15 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 3.8.2
+
+- Implemented GitHub issue forms
+- Added GitHub issue template config.yml
+- Fixed error on force re-sync when UniFi is unavailable
+- Implemented check for deprecated environment variables
+- Implemented check for valid UniFi usernames
+- Implemented UniFi username check in unifi.js
+- Added array.js utils
+
 ## 3.8.1
 
 - Disabled userIcon for internal authentication
