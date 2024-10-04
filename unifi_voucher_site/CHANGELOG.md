@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.0.3
+
+- Updated deprecation token list
+
 ## 4.0.2
 
 - Fixed incorrect type check on 'VOUCHER_CUSTOM', 'SERVICE_WEB' and 'AUTH_INTERNAL_ENABLED'
