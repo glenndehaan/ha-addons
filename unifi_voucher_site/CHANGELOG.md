@@ -1,5 +1,44 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.0.0
+
+- Setup non-root user within Dockerfile
+- Copy files as non-root user within Dockerfile
+- Launch app as non-root user within Dockerfile
+- Replaced AUTH_PASSWORD with AUTH_INTERNAL_PASSWORD
+- Removed 'public' flow from implementation documentation
+- Removed 'public' OIDC flow from application
+- Deprecated 'AUTH_OIDC_CLIENT_TYPE'
+- Removed 'AUTH_OIDC_CLIENT_TYPE' from documentation
+- Updated OIDC config checks
+- Removed 'AUTH_OIDC_CLIENT_TYPE' and 'public' OIDC flow references from README.md
+- Moved OIDC routes to /oidc/* paths
+- Updated docker installation in README.md
+- Added Release Noted chapter in README.md
+- Added 3.x to 4.x migration documentation to README.md
+- Updated OIDC integration documentation to mention new callback url
+- Implement missing config getters within variables.js
+- Implemented the 'AUTH_INTERNAL_ENABLED' and 'AUTH_OIDC_ENABLED' environment variables
+- Removed complex if structures with 'AUTH_OIDC_ENABLED' checks
+- Updated README.md
+- Implemented new logout flow utilizing new /oidc/logout endpoints
+- Added missing width and height for images
+- Added 'AUTH_OIDC_ENABLED' to integration documentation
+- Fixed incorrect config handling within variables.js
+- Added Login with OIDC button to login page
+- Made login.ejs dynamic based on enabled authentication services
+- Made GitHub icon on login.ejs smaller
+- Refactored authorization.js middleware to support running both internal and OIDC authentication within the same instance
+- Added extra error to info.js when both authentication services are disabled but authentication itself is enabled
+- Updated status.js to correctly display both authentication services running at the same time
+- Enabled /login when OIDC is enabled
+- Added missing middleware on /logout
+- Fixed JWT not initializing when authInternalEnabled is true
+- Enable attemptSilentLogin on OIDC for users that might be already signed in, this will skip the login page if users have authenticated with the idP before and still have a valid session
+- Update project screenshots
+- Updated OIDC documentation screenshots
+- Renamed 'AUTH_TOKEN' to 'AUTH_INTERNAL_BEARER_TOKEN'
+
 ## 3.8.2
 
 - Implemented GitHub issue forms
