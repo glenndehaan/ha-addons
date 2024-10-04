@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.0.1
+
+- Revert "Setup non-root user within Dockerfile. Copy files as non-root user within Dockerfile. Launch app as non-root user within Dockerfile"
+
 ## 4.0.0
 
 - Setup non-root user within Dockerfile
