@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.0.2
+
+- Fixed incorrect type check on 'VOUCHER_CUSTOM', 'SERVICE_WEB' and 'AUTH_INTERNAL_ENABLED'
+
 ## 4.0.1
 
 - Revert "Setup non-root user within Dockerfile. Copy files as non-root user within Dockerfile. Launch app as non-root user within Dockerfile"
