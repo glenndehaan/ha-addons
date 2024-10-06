@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.0.4
+
+- Updated README.md. Revert type check within variables.js
+- Implemented type check within config.js, fallback to 'null' when option is not defined
+
 ## 4.0.3
 
 - Updated deprecation token list
