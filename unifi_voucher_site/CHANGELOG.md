@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.1.1
+
+- Moved build info to variables.js
+- Simplified info.js build readout
+- Added versions to user dropdown
+
 ## 4.1.0
 
 - Implemented Git version tag into docker build and GitHub actions
