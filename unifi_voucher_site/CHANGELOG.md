@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.1.3
+
+- Moved static routes before OIDC to prevent errors due to silent login
+- Removed unused transition-opacity
+- Added event handler on details, email and create overlays when clicking outside the overlay
+
 ## 4.1.2
 
 - Updated build output format
