@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.1.0
+
+- Implemented Git version tag into docker build and GitHub actions
+- Implemented Release Notes button
+- Updated Documentation button to directly navigate to the README.md
+
 ## 4.0.4
 
 - Updated README.md. Revert type check within variables.js
