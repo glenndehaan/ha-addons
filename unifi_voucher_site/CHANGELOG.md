@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.1.2
+
+- Updated build output format
+- Updated build log in info.js
+
 ## 4.1.1
 
 - Moved build info to variables.js
