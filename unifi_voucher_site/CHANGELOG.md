@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.1.4
+
+- Fixed SMTP_SECURE type check within variables.js
+- Removed smtpSecure checks from mail.js
+- Disable TLS certificate checks within mail.js since this could cause issues with self-hosted solutions
+
 ## 4.1.3
 
 - Moved static routes before OIDC to prevent errors due to silent login
