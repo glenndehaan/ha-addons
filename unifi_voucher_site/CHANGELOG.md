@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.1.5
+
+- Dependency updates
+
 ## 4.1.4
 
 - Fixed SMTP_SECURE type check within variables.js
