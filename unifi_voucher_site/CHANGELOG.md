@@ -1,5 +1,15 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.2.0
+
+- Extended voucher.ejs with filters and sort fields
+- Also implemented JS handlers for submit
+- Implemented filter and sort selected functions
+- Implemented revised filter and sort layout
+- Implemented filters
+- Adjust dropdown styling to conform with others in the app
+- Implemented sort and updated sync button layout
+
 ## 4.1.5
 
 - Dependency updates
