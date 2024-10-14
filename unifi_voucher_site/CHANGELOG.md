@@ -1,5 +1,18 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.3.1
+
+- Update Crowdin configuration file
+- New translations email.json (French)
+- New translations email.json (German)
+- New translations email.json (Dutch)
+- New translations print.json (French)
+- New translations print.json (German)
+- New translations print.json (Dutch)
+- Updated crowdin.yml pull request parameters
+- Updated .dockerignore
+- Added missing Crowdin locales
+
 ## 4.3.0
 
 - Setup initial locales folder for translations
