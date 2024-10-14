@@ -1,5 +1,34 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.3.0
+
+- Setup initial locales folder for translations
+- Added English translations for email
+- Added _locales.json for mapping
+- Implemented the translation.js module
+- Implemented the 'TRANSLATION_DEBUG' environment variable
+- Updated the README.md to include the Translations chapter
+- Moved en.json to en/email.json to better utilize Crowdin
+- Implemented mail translations
+- Updated debug output from translation.js
+- Swapped mail function parameters
+- Replaced throw errors for log warnings
+- Implemented fallback language in translation.js
+- Added express-locale for future web i18n use
+- Removed _locales.json implementation
+- Added language parameter to mail.js
+- Implemented regex check to translation.js
+- Added language dropdown to email component
+- Added languages.js
+- Implemented the print.json translation file
+- Added a new print dialog
+- Moved /print function to a post request
+- Updated translation.js debug output
+- Implemented translator within print.js
+- Fixed typos
+- Removed unused utils from email and print components render function
+- Updated README.md
+
 ## 4.2.0
 
 - Extended voucher.ejs with filters and sort fields
