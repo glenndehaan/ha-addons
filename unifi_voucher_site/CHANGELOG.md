@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.3.2
+
+- New translations email.json (Dutch)
+- New translations print.json (Dutch)
+
 ## 4.3.1
 
 - Update Crowdin configuration file
