@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.3.3
+
+- New translations email.json (German)
+- New translations print.json (German)
+
 ## 4.3.2
 
 - New translations email.json (Dutch)
