@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.3.4
+
+- Updated dependencies
+- New translations print.json (Ukrainian)
+- New translations email.json (Ukrainian)
+
 ## 4.3.3
 
 - New translations email.json (German)
