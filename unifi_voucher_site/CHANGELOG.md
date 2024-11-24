@@ -1,5 +1,13 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.3.5
+
+- Updated dependencies
+- New translations print.json (Catalan)
+- New translations email.json (Catalan)
+- New translations print.json (Spanish)
+- New translations email.json (Spanish)
+
 ## 4.3.4
 
 - Updated dependencies
