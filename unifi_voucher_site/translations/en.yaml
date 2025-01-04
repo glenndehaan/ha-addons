@@ -59,3 +59,6 @@ configuration:
   log_level:
     name: Log Level
     description: Sets the application Log Level
+  translation_default:
+    name: Translation Default
+    description: Sets the default translation for dropdowns

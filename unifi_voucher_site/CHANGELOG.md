@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.4.0
+
+- Dependency updates
+- Implemented TRANSLATION_DEFAULT to override default selected translation
+
 ## 4.3.6
 
 - New translations email.json (Polish)
