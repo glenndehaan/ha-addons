@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.4.1
+
+- Rollback pdfkit update due to HA encoding error
+
 ## 4.4.0
 
 - Dependency updates
