@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.5.0
+
+- Implemented UI_BACK_BUTTON for kiosk users to navigate to the previous page
+- Removed h1 to clean-up UI
+
 ## 4.4.1
 
 - Rollback pdfkit update due to HA encoding error
