@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.5.1
+
+- Dependency upgrades
+
 ## 4.5.0
 
 - Implemented UI_BACK_BUTTON for kiosk users to navigate to the previous page
