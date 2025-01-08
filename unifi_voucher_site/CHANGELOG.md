@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.5.2
+
+- Fixed QR code generation for 'Open' networks
+- Update README.md to reflect QR function
+- Updated dependencies
+
 ## 4.5.1
 
 - Dependency upgrades
