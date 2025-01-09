@@ -1,5 +1,17 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.6.0
+
+- Implemented expired states within templates
+- Implemented expired filter
+- Implemented notes within voucher creation
+- Implemented Notes within voucher overview and detail pages
+- Implemented notes sort option
+- Fixed incorrect voucher type when custom quotas are in use
+- Implemented quota display within templates
+- Implemented bulk printing for both PDF and ESC/POS modules
+- Updated README.md
+
 ## 4.5.2
 
 - Fixed QR code generation for 'Open' networks
