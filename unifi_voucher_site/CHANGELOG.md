@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.6.1
+
+- Added custom font for PDF exports for ensure special character sets are available
+
 ## 4.6.0
 
 - Implemented expired states within templates
