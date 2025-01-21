@@ -1,5 +1,14 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 4.7.0
+
+- Updated screenshots
+- Fixed inconsistent 'unlimited' messaging
+- Implemented direct usage without overrides within unifi.js
+- Implemented voucher duration type dropdown during custom voucher creation
+- Implemented Multi-use (Limited/Quota) option during custom voucher creation
+- Updated README.md to reflect multi-use quota function within voucher type presets
+
 ## 4.6.1
 
 - Added custom font for PDF exports for ensure special character sets are available

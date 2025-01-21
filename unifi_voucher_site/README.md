@@ -5,7 +5,7 @@ _UniFi Voucher Site is a web-based platform for generating and managing UniFi ne
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
 
-![Screenshot](https://github.com/glenndehaan/ha-addons/assets/7496187/f94ce414-0987-4469-9cdd-3348520e65e5)
+![Screenshot](https://github.com/user-attachments/assets/6d1d9ec8-e60b-469d-9ad6-caf3fd346c55)
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
