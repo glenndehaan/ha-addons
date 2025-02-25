@@ -1,5 +1,27 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 5.0.0
+
+- Updated NodeJS to 22.x LTS
+- Updated Alpine to 3.21
+- Pinned tough-cookie to clear deprecation message
+- Dependency updates
+- Removed nodemon
+- Switched watcher to built-in version within NodeJS 22
+- Updated README.md
+- Removed version from docker-compose.yml since this is deprecated
+- Implemented the /api/languages endpoint
+- Refactored the /api endpoint to return methods for each endpoint
+- Added the voucher id within /api/vouchers
+- Refactored the /api/voucher endpoint from GET to POST method
+- Implemented optional email sending within /api/voucher endpoint
+- Implemented missing comments within api code
+- Implemented missing HTTP status codes within api responses
+- Enabled JSON responses within Express
+- Updated the README.md with v5 migration documentation
+- Upgrade/migrate tailwind v3 to v4
+- Fixed small tailwind migration error
+
 ## 4.7.0
 
 - Updated screenshots
