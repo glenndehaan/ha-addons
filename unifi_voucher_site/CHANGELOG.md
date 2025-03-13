@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 5.0.1
+
+- Fixed crash within QR generation for larger SSIDs and Passwords
+
 ## 5.0.0
 
 - Updated NodeJS to 22.x LTS
