@@ -1,5 +1,21 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 5.1.0
+
+- Added the kiosk_example.png
+- Updated the README.md
+- Implemented timer styles within style.css
+- Added kiosk output within info.js
+- Set default locale to 'en' for mail.js
+- Implemented KIOSK_ENABLED and KIOSK_VOUCHER_TYPE environment variables within variables.js
+- Added kiosk_bg.jpg
+- Updated navigation.ejs with kiosk link
+- Added kiosk.ejs template
+- Updated status.ejs and status.js with kiosk module status
+- Updated docker-compose.yml
+- Added /kiosk routes to server.js
+- Added kioskEnabled states to required routes in server.js
+
 ## 5.0.2
 
 - Dependency updates

@@ -56,6 +56,14 @@ configuration:
   smtp_password:
     name: SMTP Password
     description: SMTP Mail password
+  kiosk_enabled:
+    name: Kiosk Enabled
+    description: Enable/disable the kiosk page on /kiosk
+  kiosk_voucher_type:
+    name: Kiosk Voucher Type
+    description: |
+      Kiosk Voucher Type, format: expiration in minutes (required),single-use or multi-use vouchers value - '0' is for multi-use (unlimited) - '1' is for single-use - 'N' is for multi-use (Nx) (optional),upload speed limit in kbps (optional),download speed limit in kbps (optional),data transfer limit in MB (optional)
+      To skip a parameter just but nothing in between the comma's
   log_level:
     name: Log Level
     description: Sets the application Log Level
