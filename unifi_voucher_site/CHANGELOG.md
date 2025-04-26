@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 5.1.2
+
+- Revert expressjs upgrade due to incompatibilities
+
 ## 5.1.1
 
 - New translations email.json (Danish)
