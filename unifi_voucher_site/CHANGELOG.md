@@ -1,5 +1,16 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 5.1.3
+
+- Updated languages.js
+- Removed unused language files
+- New translations print.json (Danish)
+- New translations email.json (Danish)
+- New translations print.json (Spanish)
+- New translations email.json (Spanish)
+- New translations email.json (French)
+- New translations print.json (French)
+
 ## 5.1.2
 
 - Revert expressjs upgrade due to incompatibilities
