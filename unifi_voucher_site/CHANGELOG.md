@@ -1,5 +1,19 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 5.2.0
+
+- Dependency updates
+- Implemented en kiosk.json translations
+- Updated locale middleware config
+- Implemented translations within kiosk.ejs
+- New translations kiosk.json (French)
+- New translations kiosk.json (Spanish)
+- New translations kiosk.json (Danish)
+- New translations kiosk.json (German)
+- New translations kiosk.json (Dutch)
+- New translations kiosk.json (Polish)
+- Implemented the missing email field translation
+
 ## 5.1.3
 
 - Updated languages.js
