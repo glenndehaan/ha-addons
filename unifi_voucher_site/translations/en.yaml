@@ -70,6 +70,3 @@ configuration:
   translation_default:
     name: Translation Default
     description: Sets the default translation for dropdowns
-  ui_back_button:
-    name: UI Back Button
-    description: Enables/disables a back-button next to the logo to go back 1 page in history (Could be used with multi-page kiosks)
