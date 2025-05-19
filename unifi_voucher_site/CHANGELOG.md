@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 6.0.1
+
+- Updated README.md
+- Hotfix HA printer fields
+
 ## 6.0.0
 
 - Updated info.js for new printers key

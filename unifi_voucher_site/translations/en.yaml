@@ -32,12 +32,9 @@ configuration:
   service_api:
     name: API Service
     description: Enables/disables the API Service
-  printer_type:
-    name: Printer Type
-    description: Enables/disables the printer and set the preferred type, currently supported types - pdf, escpos
-  printer_ip:
-    name: Printer IP
-    description: IP address to your network enabled ESC/POS compatible printer (Only required when using printer_type 'escpos')
+  printers:
+    name: Printers
+    description: Enable/disable the printers and setup available printers, currently supported - pdf,escpos ip (Example - pdf,192.168.1.10)
   smtp_from:
     name: SMTP From
     description: SMTP Mail from email address
