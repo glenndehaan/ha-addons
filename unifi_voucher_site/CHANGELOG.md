@@ -1,5 +1,12 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 6.0.2
+
+- Updated languages.js
+- New translations kiosk.json (Russian)
+- New translations print.json (Russian)
+- New translations email.json (Russian)
+
 ## 6.0.1
 
 - Updated README.md
