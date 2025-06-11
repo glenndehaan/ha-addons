@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 6.0.3
+
+- Updated dependencies
+
 ## 6.0.2
 
 - Updated languages.js
