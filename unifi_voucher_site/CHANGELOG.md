@@ -1,5 +1,43 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 6.1.0
+
+- Updated languages.js to include new languages from Crowdin
+- Persist locale between kiosk voucher generation and email send page
+- Also ensure locale is used as language when sending the email from the kiosk page
+- Added guestName translation to kiosk.json
+- Implemented time.json to time util translations
+- Updated info.js to reflect kiosk name requirement
+- Updated mail.js and print.js for localized time translations
+- Implemented optional guest name (voucher note) within kiosk.ejs
+- Implemented translations within time.js
+- Updated docker-compose.yml
+- Updated dependencies
+- Updated README.md
+- New translations email.json (Finnish)
+- New translations print.json (Finnish)
+- New translations kiosk.json (Finnish)
+- New translations email.json (Portuguese)
+- New translations print.json (Portuguese)
+- New translations kiosk.json (Portuguese)
+- New translations kiosk.json (French)
+- New translations kiosk.json (Spanish)
+- New translations kiosk.json (Danish)
+- New translations kiosk.json (German)
+- New translations kiosk.json (Finnish)
+- New translations kiosk.json (Dutch)
+- New translations kiosk.json (Polish)
+- New translations kiosk.json (Portuguese)
+- New translations kiosk.json (Russian)
+- New translations time.json (French)
+- New translations time.json (Spanish)
+- New translations time.json (Danish)
+- New translations time.json (German)
+- New translations time.json (Finnish)
+- New translations time.json (Dutch)
+- New translations time.json (Polish)
+- New translations time.json (Portuguese)
+
 ## 6.0.4
 
 - Updated dependencies

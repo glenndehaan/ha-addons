@@ -61,6 +61,9 @@ configuration:
     description: |
       Kiosk Voucher Type, format: expiration in minutes (required),single-use or multi-use vouchers value - '0' is for multi-use (unlimited) - '1' is for single-use - 'N' is for multi-use (Nx) (optional),upload speed limit in kbps (optional),download speed limit in kbps (optional),data transfer limit in MB (optional)
       To skip a parameter just but nothing in between the comma's
+  kiosk_name_required:
+    name: Kiosk Name Required
+    description: Enable/disable the requirement for a guest to enter their name before generating a voucher
   log_level:
     name: Log Level
     description: Sets the application Log Level
