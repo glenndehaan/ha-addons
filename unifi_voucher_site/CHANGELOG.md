@@ -1,5 +1,19 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 6.1.1
+
+- Updated languages.js to include new languages from Crowdin
+- Limit width of language selector in kiosk.ejs
+- Updated dependencies
+- New translations time.json (Portuguese, Brazilian)
+- New translations kiosk.json (Portuguese, Brazilian)
+- New translations print.json (Portuguese, Brazilian)
+- New translations email.json (Portuguese, Brazilian)
+- New translations email.json (Portuguese)
+- New translations kiosk.json (Portuguese)
+- New translations print.json (Portuguese)
+- New translations email.json (Portuguese)
+
 ## 6.1.0
 
 - Updated languages.js to include new languages from Crowdin
