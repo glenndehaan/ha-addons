@@ -1,5 +1,30 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 7.0.0
+
+- Updated kiosk.json with new translation strings
+- Updated info.js to reflect the multiple kiosk voucher types
+- Deprecated the `KIOSK_VOUCHER_TYPE` environment variable
+- Implemented the `KIOSK_VOUCHER_TYPES` environment variable with support for multiple voucher types
+- Moved the kiosk images (logo.png and bg.jpg) to a kiosk image sub-folder
+- Redesign of the kiosk.ejs language selector to provide space for custom images
+- Implemented voucher types within kiosk.ejs
+- Utilize the bytes converter within voucher.ejs to reformat bytes labels
+- Updated the docker-compose.yml
+- Updated the README.md
+- Implemented /kiosk custom assets overrides
+- Implemented a type check for the voucher types from kiosk requests
+- New translations kiosk.json (French)
+- New translations kiosk.json (Spanish)
+- New translations kiosk.json (Danish)
+- New translations kiosk.json (German)
+- New translations kiosk.json (Finnish)
+- New translations kiosk.json (Dutch)
+- New translations kiosk.json (Polish)
+- New translations kiosk.json (Portuguese)
+- New translations kiosk.json (Russian)
+- New translations kiosk.json (Portuguese, Brazilian)
+
 ## 6.1.1
 
 - Updated languages.js to include new languages from Crowdin

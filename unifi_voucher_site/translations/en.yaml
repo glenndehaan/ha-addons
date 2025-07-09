@@ -56,10 +56,10 @@ configuration:
   kiosk_enabled:
     name: Kiosk Enabled
     description: Enable/disable the kiosk page on /kiosk
-  kiosk_voucher_type:
-    name: Kiosk Voucher Type
+  kiosk_voucher_types:
+    name: Kiosk Voucher Types
     description: |
-      Kiosk Voucher Type, format: expiration in minutes (required),single-use or multi-use vouchers value - '0' is for multi-use (unlimited) - '1' is for single-use - 'N' is for multi-use (Nx) (optional),upload speed limit in kbps (optional),download speed limit in kbps (optional),data transfer limit in MB (optional)
+      Kiosk Voucher Types, format: expiration in minutes (required),single-use or multi-use vouchers value - '0' is for multi-use (unlimited) - '1' is for single-use - 'N' is for multi-use (Nx) (optional),upload speed limit in kbps (optional),download speed limit in kbps (optional),data transfer limit in MB (optional)
       To skip a parameter just but nothing in between the comma's
   kiosk_name_required:
     name: Kiosk Name Required
