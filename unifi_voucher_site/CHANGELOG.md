@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 7.0.1
+
+- Fixed missing time convert translation within kiosk.ejs
+
 ## 7.0.0
 
 - Updated kiosk.json with new translation strings
