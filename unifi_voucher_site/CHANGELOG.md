@@ -1,5 +1,14 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 7.1.0
+
+- Updated info.js to reflect auto kiosk print status
+- Implemented `KIOSK_PRINTER` environment variable
+- Updated docker-compose.yml
+- Dependency updates
+- Updated README.md
+- Implemented voucher auto-print within kiosk in server.js
+
 ## 7.0.1
 
 - Fixed missing time convert translation within kiosk.ejs
