@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 7.1.1
+
+- Updated dependencies
+- Updated README.md
+
 ## 7.1.0
 
 - Updated info.js to reflect auto kiosk print status
