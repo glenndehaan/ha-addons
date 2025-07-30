@@ -1,5 +1,26 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 7.2.0
+
+- Updated `PIN_OIDC_USER_TO_OWN_DOMAIN` to `AUTH_OIDC_RESTRICT_VISIBILITY`
+- Fixed bulk-print.ejs notes view
+- Updated details.ejs view with additional voucher metadata
+- Updated voucher.ejs notes view
+- Created notes.js utils for extracting voucher notes and metadata
+- Updated docker-compose.yml
+- Updated README.md
+- Implemented voucher note check for seperator misuse
+- Implemented new notes-metadata embed
+- Implemented new voucher filter within existing chain
+- Fixed notes sort to only filter on the notes not the metadata
+- Removed unused `pinOidcUserToOwnDomain` variable forward to voucher.ejs
+- Cleanup code prior to pull request (Contribution by: @bjoerrrrn)
+- Merging PIN_OIDC_USER_TO_OWN_DOMAIN System to PR-Branch (Contribution by: @bjoerrrrn)
+- New translations email.json (Italian)
+- New translations print.json (Italian)
+- New translations kiosk.json (Italian)
+- New translations time.json (Italian)
+
 ## 7.1.1
 
 - Updated dependencies
