@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 7.2.1
+
+- Fixed notes.js util to catch null values
+
 ## 7.2.0
 
 - Updated `PIN_OIDC_USER_TO_OWN_DOMAIN` to `AUTH_OIDC_RESTRICT_VISIBILITY`
