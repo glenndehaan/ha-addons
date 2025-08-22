@@ -1,5 +1,13 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 7.2.2
+
+- Updated the languages.js with new languages
+- New translations email.json (Czech)
+- New translations print.json (Czech)
+- New translations kiosk.json (Czech)
+- New translations time.json (Czech)
+
 ## 7.2.1
 
 - Fixed notes.js util to catch null values
