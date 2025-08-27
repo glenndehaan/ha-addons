@@ -5,12 +5,9 @@ configuration:
   unifi_port:
     name: UniFi Port
     description: The port of your UniFi OS Console, this could be 443 or 8443
-  unifi_username:
-    name: UniFi Username
-    description: The username of a local UniFi OS account
-  unifi_password:
-    name: UniFi Password
-    description: The password of a local UniFi OS account
+  unifi_token:
+    name: UniFi Token
+    description: The API Key created on the integrations tab within UniFi OS
   unifi_site_id:
     name: UniFi Site ID
     description: The UniFi Site ID
@@ -67,9 +64,21 @@ configuration:
   kiosk_printer:
     name: Kiosk Printer
     description: Enable/disable a printer for Kiosk Vouchers (this automatically prints vouchers), currently supported - escpos ip (Example - 192.168.1.10)
+  kiosk_homepage:
+    name: Kiosk Homepage
+    description: Enable/disable an override to redirect to the Kiosk on the / url (Also enables a link from the Kiosk back to the Admin UI)
   log_level:
     name: Log Level
     description: Sets the application Log Level
   translation_default:
     name: Translation Default
     description: Sets the default translation for dropdowns
+  translation_hidden_languages:
+    name: Translation Hidden Languages
+    description: Hides languages from the UI, example - en,nl,de
+  task_cleanup_expired:
+    name: Task Cleanup Expired
+    description: Enables/disables an automated task to clean up expired vouchers from UniFi
+  task_cleanup_unused:
+    name: Task Cleanup Unused
+    description: Enables/disables an automated task to clean up unused vouchers (Vouchers unused a day after creation) from UniFi

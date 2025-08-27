@@ -1,5 +1,53 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.0.0
+
+> **Note**: [Please read the migration documentation before upgrading from 7.x to 8.x](https://github.com/glenndehaan/unifi-voucher-site#migration-from-7x-to-8x)
+
+> **Warning!** This release is only compatible with:
+> - UniFi OS v4.2.8+
+> - UniFi Network v9.1.119+ (Cloud Gateways, Cloud Key, or UniFi OS software)
+
+> **This release requires the setup of a UniFi OS Integration API Key**
+
+> **Note**: This release breaks the Connected Guests feature due to a limitation within the UniFi Integration API. Please check and upvote this issue: https://community.ui.com/questions/Feature-Request-Network-API-Guest-Access-Voucher-ID/d3c470e2-433d-4386-8a13-211712311202
+
+- Migrated languages.js from master
+- Updated info.js guest warning
+- Removed old dependencies
+- Removed deprecated `UNIFI_USERNAME` and `UNIFI_PASSWORD` from variables.js
+- Cleanup unifi.js to remove legacy implementation and switch to UniFi Integrations
+- Implemented temporary guest features warning in info.js
+- Removed old UniFi username check from info.js
+- Refactor fetch.js to utilize global cache
+- Lowered log intensity within server.js
+- Dependency updates
+- Added country flags to languages.js
+- Updated the languages.js util with global filters
+- Implemented cleanup.js for automatically cleaning-up expired and unused vouchers
+- Added the created at field within details.ejs
+- Updated language dropdown to hide themselves if the number of allowed languages is lower than 2
+- Implemented the `TRANSLATION_HIDDEN_LANGUAGES`, `TASK_CLEANUP_EXPIRED` and `TASK_CLEANUP_UNUSED` environment variables in variables.js
+- Added translation status to info.js
+- Updated info.js to show deprecation messages when utilizing the options.json
+- Updated README.md
+- Updated docker-compose.yml
+- Updated array.js with new deprecated variables
+- Implemented Admin UI button within kiosk.ejs
+- Implemented new / redirect structure base on `KIOSK_HOMEPAGE` variable
+- Implemented `KIOSK_HOMEPAGE` environment variable
+- Implemented `UNIFI_TOKEN` startup check within info.js
+- Refactored server.js into separate controllers
+- Temporary fixed guest mapping to voucher\_code instead of ids
+- Fixed incorrect quote filter within server.js
+- server.js refactored for compatibility with the UniFi integration API
+- Added undici to the dependencies
+- Check for undefined state in notes.js
+- Added fetch.js util
+- Added the `UNIFI_TOKEN` to variables.js
+- Updated the unifi.js module to implement the UniFi Integration API
+- Refactored print.js, bulk-print.ejs, details.ejs, email.ejs, print.ejs, voucher.ejs and size.js for object compatibility with the UniFi Integration API
+
 ## 7.2.2
 
 - Updated the languages.js with new languages
@@ -52,6 +100,8 @@
 - Fixed missing time convert translation within kiosk.ejs
 
 ## 7.0.0
+
+> **Note**: [Please read the migration documentation before upgrading from 6.x to 7.x](https://github.com/glenndehaan/unifi-voucher-site#migration-from-6x-to-7x)
 
 - Updated kiosk.json with new translation strings
 - Updated info.js to reflect the multiple kiosk voucher types
@@ -150,6 +200,8 @@
 
 ## 6.0.0
 
+> **Note**: [Please read the migration documentation before upgrading from 5.x to 6.x](https://github.com/glenndehaan/unifi-voucher-site#migration-from-5x-to-6x)
+
 - Updated info.js for new printers key
 - Updated print.js to forward ESC/POS printer IPs
 - Updated keys within variables.js
@@ -223,6 +275,8 @@
 - Fixed crash within QR generation for larger SSIDs and Passwords
 
 ## 5.0.0
+
+> **Note**: [Please read the migration documentation before upgrading from 4.x to 5.x](https://github.com/glenndehaan/unifi-voucher-site#migration-from-4x-to-5x)
 
 - Updated NodeJS to 22.x LTS
 - Updated Alpine to 3.21
@@ -429,6 +483,8 @@
 
 ## 4.0.0
 
+> **Note**: [Please read the migration documentation before upgrading from 3.x to 4.x](https://github.com/glenndehaan/unifi-voucher-site#migration-from-3x-to-4x)
+
 - Setup non-root user within Dockerfile
 - Copy files as non-root user within Dockerfile
 - Launch app as non-root user within Dockerfile
@@ -629,6 +685,8 @@
 
 ## 3.0.0
 
+> **Note**: [Please read the migration documentation before upgrading from 2.x to 3.x](https://github.com/glenndehaan/unifi-voucher-site#migration-from-2x-to-3x)
+
 - Updated .dockerignore to remove unneeded files from container build
 - Updated docker-compose.yml with new environment variables
 - Updated README.md
@@ -791,6 +849,8 @@
 - Implemented auto sync every 15 minutes
 
 ## 2.0.0
+
+> **Note**: [Please read the migration documentation before upgrading from 1.x to 2.x](https://github.com/glenndehaan/unifi-voucher-site#migration-from-1x-to-2x)
 
 - Updated 404 and login branding/layout
 - Moved tailwind dependencies to dev-dependencies

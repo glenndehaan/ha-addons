@@ -1,6 +1,6 @@
 name: "UniFi Voucher Site"
 description: "UniFi Voucher Site is a web-based platform for generating and managing UniFi network guest vouchers"
-version: "7.2.2"
+version: "8.0.0"
 slug: "unifi_voucher_site"
 image: glenndehaan/unifi-voucher-site
 init: false
@@ -17,8 +17,7 @@ environment:
 options:
   unifi_ip: '192.168.1.1'
   unifi_port: 443
-  unifi_username: 'admin'
-  unifi_password: ''
+  unifi_token: ''
   unifi_site_id: 'default'
   unifi_ssid: ''
   unifi_ssid_password: ''
@@ -36,13 +35,16 @@ options:
   kiosk_voucher_types: '480,1,,,;'
   kiosk_name_required: false
   kiosk_printer: ''
+  kiosk_homepage: false
   log_level: 'info'
   translation_default: 'en'
+  translation_hidden_languages: ''
+  task_cleanup_expired: false
+  task_cleanup_unused: false
 schema:
   unifi_ip: str
   unifi_port: port
-  unifi_username: str
-  unifi_password: password
+  unifi_token: password
   unifi_site_id: str
   unifi_ssid: str?
   unifi_ssid_password: password?
@@ -60,5 +62,9 @@ schema:
   kiosk_voucher_types: str?
   kiosk_name_required: bool
   kiosk_printer: str?
+  kiosk_homepage: bool
   log_level: "list(error|warn|info|debug|trace)"
-  translation_default: "list(en|de|nl|pl)"
+  translation_default: "list(en|br|cs|da|de|es|fi|fr|nl|pl|pt|ru)"
+  translation_hidden_languages: str?
+  task_cleanup_expired: bool
+  task_cleanup_unused: bool
