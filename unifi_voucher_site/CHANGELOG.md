@@ -1,5 +1,12 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.1.0
+
+- Implemented `KIOSK_EMAIL` environment variable. Lowered log output from unifi.js
+- Implemented kiosk email toggle
+- Fixed missing kiosk printer check causing errors
+- Updated README.md
+
 ## 8.0.0
 
 > **Note**: [Please read the migration documentation before upgrading from 7.x to 8.x](https://github.com/glenndehaan/unifi-voucher-site#migration-from-7x-to-8x)

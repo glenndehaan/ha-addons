@@ -61,6 +61,9 @@ configuration:
   kiosk_name_required:
     name: Kiosk Name Required
     description: Enable/disable the requirement for a guest to enter their name before generating a voucher
+  kiosk_email:
+    name: Kiosk Email
+    description: Enable/disable the email voucher button (Requires SMTP to be setup)
   kiosk_printer:
     name: Kiosk Printer
     description: Enable/disable a printer for Kiosk Vouchers (this automatically prints vouchers), currently supported - escpos ip (Example - 192.168.1.10)
