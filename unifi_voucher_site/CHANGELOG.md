@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.1.1
+
+- Hide copy to clipboard button if browser API is not available
+
 ## 8.1.0
 
 - Implemented `KIOSK_EMAIL` environment variable. Lowered log output from unifi.js
