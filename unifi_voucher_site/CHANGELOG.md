@@ -1,5 +1,16 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.2.0
+
+- Implemented `KIOSK_TIMEOUT` environment variable
+- Introduced adjustable kiosk timeout timer
+- Moved static animation from style.css to kiosk.ejs
+- Fixed incorrect preload tag within kiosk.ejs
+- Added missing bg.jpg preload tag within kiosk.ejs
+- Updated docker-compose.yml
+- Dependency updates
+- Updated README.md
+
 ## 8.1.1
 
 - Hide copy to clipboard button if browser API is not available

@@ -1,6 +1,6 @@
 name: "UniFi Voucher Site"
 description: "UniFi Voucher Site is a web-based platform for generating and managing UniFi network guest vouchers"
-version: "8.1.1"
+version: "8.2.0"
 slug: "unifi_voucher_site"
 image: glenndehaan/unifi-voucher-site
 init: false
@@ -34,9 +34,10 @@ options:
   kiosk_enabled: false
   kiosk_voucher_types: '480,1,,,;'
   kiosk_name_required: false
+  kiosk_timeout: 60
+  kiosk_homepage: false
   kiosk_email: false
   kiosk_printer: ''
-  kiosk_homepage: false
   log_level: 'info'
   translation_default: 'en'
   translation_hidden_languages: ''
@@ -62,9 +63,10 @@ schema:
   kiosk_enabled: bool
   kiosk_voucher_types: str?
   kiosk_name_required: bool
+  kiosk_timeout: int
+  kiosk_homepage: bool
   kiosk_email: bool
   kiosk_printer: str?
-  kiosk_homepage: bool
   log_level: "list(error|warn|info|debug|trace)"
   translation_default: "list(en|br|cs|da|de|es|fi|fr|nl|pl|pt|ru)"
   translation_hidden_languages: str?
