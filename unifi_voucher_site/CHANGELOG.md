@@ -1,5 +1,13 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.2.1
+
+- Updated languages.js with new languages
+- New translations time.json (Serbian (Cyrillic))
+- New translations kiosk.json (Serbian (Cyrillic))
+- New translations print.json (Serbian (Cyrillic))
+- New translations email.json (Serbian (Cyrillic))
+
 ## 8.2.0
 
 - Implemented `KIOSK_TIMEOUT` environment variable
