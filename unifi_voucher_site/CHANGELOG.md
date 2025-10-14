@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.2.2
+
+- Dependency updates
+
 ## 8.2.1
 
 - Updated languages.js with new languages
