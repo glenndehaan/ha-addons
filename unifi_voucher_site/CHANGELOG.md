@@ -1,5 +1,12 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.3.0
+
+- Implemented the `AUTH_OIDC_REDIRECT_LOGIN` environment variable
+- Added an OIDC redirect function within authentication.js controller
+- Updated README.md
+- Updated dependencies
+
 ## 8.2.2
 
 - Dependency updates
