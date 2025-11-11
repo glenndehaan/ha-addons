@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.3.1
+
+- Moved fetchUserInfo call to authorization.js middleware
+- Catch fetchUserInfo exceptions, causing invalided session to be stuck
+
 ## 8.3.0
 
 - Implemented the `AUTH_OIDC_REDIRECT_LOGIN` environment variable
