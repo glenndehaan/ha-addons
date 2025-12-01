@@ -1,5 +1,15 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.3.2
+
+- Fixed OIDC loop when using local authentication
+- Removed default auth setting for mail.js
+- Updated dependencies
+- New translations email.json (German)
+- New translations kiosk.json (German)
+- New translations time.json (German)
+- Added missing package-lock.json updates
+
 ## 8.3.1
 
 - Moved fetchUserInfo call to authorization.js middleware
