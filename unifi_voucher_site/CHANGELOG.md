@@ -1,5 +1,15 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.4.0
+
+- Updated dependencies
+- Moved email assets from base64 to attachments to improve support in Gmail
+- Implemented custom email branding support
+- Implemented custom print branding support
+- Moved image assets to email/kiosk directory
+- Implemented kiosk dark mode logo support
+- Updated README.md
+
 ## 8.3.2
 
 - Fixed OIDC loop when using local authentication
