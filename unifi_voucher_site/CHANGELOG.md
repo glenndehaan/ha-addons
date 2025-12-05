@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.4.1
+
+- Dependency updates
+- Fixed incorrect logo path for ESC/POS printer function
+
 ## 8.4.0
 
 - Updated dependencies
