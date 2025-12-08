@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.5.0
+
+- Updated dependencies
+- Implemented default locale redirect on /kiosk (Force users to default translation)
+
 ## 8.4.1
 
 - Dependency updates
