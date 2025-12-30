@@ -1,5 +1,14 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.6.0
+
+- Updated dependencies
+- Ensure note field is always present within vouchers api call
+- Implement separator check
+- Updated README.md
+- Add notes utility to API GET vouchers response (Contribution by: @nickelblack619)
+- Add note input for voucher creation in api (Contribution by: @nickelblack619)
+
 ## 8.5.0
 
 - Updated dependencies
