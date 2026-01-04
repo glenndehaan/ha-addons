@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.6.2
+
+- Updated dependencies
+
 ## 8.6.1
 
 - Type cast according to UniFi hotspot documentation
