@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.6.3
+
+- Added missing Italian locale to languages.js
+
 ## 8.6.2
 
 - Updated dependencies
