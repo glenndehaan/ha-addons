@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 8.7.0
+
+- Updated README.md
+- Updated dependencies
+- Allow configuring the bind address (Contribution by: @0xADD1E)
+
 ## 8.6.3
 
 - Added missing Italian locale to languages.js
