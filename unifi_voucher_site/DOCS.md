@@ -1,6 +1,7 @@
-# Home Assistant Add-on: UniFi Voucher Site
+# Home Assistant App: UniFi Voucher Site
 
-This Home Assistant add-on allows you to easily set up a voucher-based authentication system for your UniFi network. By integrating with UniFi's API, it provides a web interface for generating and managing vouchers.
+This Home Assistant app allows you to easily set up a voucher-based authentication system for your UniFi network.
+By integrating with UniFi's API, it provides a web interface for generating and managing vouchers.
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
@@ -10,14 +11,14 @@ This Home Assistant add-on allows you to easily set up a voucher-based authentic
 ## Installation
 
 1. Navigate to the Supervisor panel in your Home Assistant instance.
-2. Select "Add-on Store."
-3. Add the repository containing this add-on by clicking the three dots in the upper-right corner, then "Repositories," and enter the URL of this repository: https://github.com/glenndehaan/ha-addons.
-4. Once the repository is added, the "UniFi Voucher Site" add-on will appear in the add-on store. Click on it.
+2. Select "App Store."
+3. Add the repository containing this app by clicking the three dots in the upper-right corner, then "Repositories," and enter the URL of this repository: https://github.com/glenndehaan/ha-addons.
+4. Once the repository is added, the "UniFi Voucher Site" app will appear in the app store. Click on it.
 5. Click "Install" and wait for the installation to complete.
 
 ## Configuration
 
-The add-on requires configuration to connect to your UniFi controller. Here's an example configuration:
+The app requires configuration to connect to your UniFi controller. Here's an example configuration:
 
 ```yaml
 unifi_ip: 192.168.1.1
@@ -43,7 +44,7 @@ log_level: info
 
 ## Usage
 
-1. Once the add-on is installed and configured, start it from the Supervisor panel.
+1. Once the app is installed and configured, start it from the Supervisor panel.
 2. After starting, access the UniFi Voucher Site web interface by clicking the 'Open Web UI' button
 
 ## Notes

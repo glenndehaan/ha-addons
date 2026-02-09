@@ -1,4 +1,11 @@
-<!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
+<!-- https://developers.home-assistant.io/docs/apps/presentation#keeping-a-changelog -->
+
+## 8.8.0
+
+- Updated README.md
+- Updated dependencies
+- Implemented `VOUCHER_NOTE_REQUIRED` environment variable
+- Implemented required note checks
 
 ## 8.7.0
 

@@ -1,20 +1,20 @@
-# Glenn de Haan Home Assistant add-on repository
+# Glenn de Haan Home Assistant app repository
 
-My own Home Assistant add-on repository containing all my own add-ons
+My own Home Assistant app repository containing all my own apps
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fglenndehaan%2Fha-addons)
+[![Open your Home Assistant instance and show the add app repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fglenndehaan%2Fha-addons)
 
 ## Installation
 
-To install the add-on repository for Home Assistant, follow these steps:
+To install the app repository for Home Assistant, follow these steps:
 
 1. Open the Supervisor panel in your Home Assistant instance.
-2. Navigate to the "Add-on Store."
+2. Navigate to the "App Store."
 3. Add our repository to the list of repositories by clicking the three dots in the upper-right corner, then selecting "Repositories," and entering the URL of our repository: `https://github.com/glenndehaan/ha-addons`.
 
-## Add-ons
+## Apps
 
-This repository contains the following add-ons
+This repository contains the following apps
 
 ### [UniFi Voucher Site](./unifi_voucher_site)
 

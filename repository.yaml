@@ -1,4 +1,4 @@
-# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+# https://developers.home-assistant.io/docs/apps/repository#repository-configuration
 name: Glenn de Haan Home Assistant add-on repository
 url: 'https://github.com/glenndehaan/ha-addons'
 maintainer: Glenn de Haan <glenn@dehaan.cloud>
