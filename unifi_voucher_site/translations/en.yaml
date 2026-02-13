@@ -26,6 +26,9 @@ configuration:
   voucher_custom:
     name: Custom Voucher
     description: Allow users to create custom vouchers types within the UI
+  voucher_note_required:
+    name: Voucher Note Required
+    description: Force users to provide a note within the UI
   service_api:
     name: API Service
     description: Enables/disables the API Service
@@ -88,3 +91,6 @@ configuration:
   task_cleanup_unused:
     name: Task Cleanup Unused
     description: Enables/disables an automated task to clean up unused vouchers (Vouchers unused a day after creation) from UniFi
+  task_cleanup_unused_days:
+    name: Task Cleanup Unused Days
+    description: Specifies the amount of days to wait before removing the unused vouchers
