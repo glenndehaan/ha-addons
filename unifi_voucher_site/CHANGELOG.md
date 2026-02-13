@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/apps/presentation#keeping-a-changelog -->
 
+## 8.9.0
+
+- Implemented `TASK_CLEANUP_UNUSED_DAYS` environment variable
+- Implemented custom unused cleanup timing
+- Updated README.md
+
 ## 8.8.0
 
 - Updated README.md

@@ -1,6 +1,6 @@
 name: "UniFi Voucher Site"
 description: "Web-based platform for generating and managing UniFi network guest vouchers"
-version: "8.8.0"
+version: "8.9.0"
 slug: "unifi_voucher_site"
 image: glenndehaan/unifi-voucher-site
 init: false
@@ -23,6 +23,7 @@ options:
   unifi_ssid_password: ''
   voucher_types: '480,1,,,;'
   voucher_custom: true
+  voucher_note_required: false
   service_api: false
   printers: ''
   smtp_from: ''
@@ -43,6 +44,7 @@ options:
   translation_hidden_languages: ''
   task_cleanup_expired: false
   task_cleanup_unused: false
+  task_cleanup_unused_days: 1
 schema:
   unifi_ip: str
   unifi_port: port
@@ -52,6 +54,7 @@ schema:
   unifi_ssid_password: password?
   voucher_types: str
   voucher_custom: bool
+  voucher_note_required: bool
   service_api: bool
   printers: str?
   smtp_from: str?
@@ -72,3 +75,4 @@ schema:
   translation_hidden_languages: str?
   task_cleanup_expired: bool
   task_cleanup_unused: bool
+  task_cleanup_unused_days: int
