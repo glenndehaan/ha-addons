@@ -1,5 +1,9 @@
 <!-- https://developers.home-assistant.io/docs/apps/presentation#keeping-a-changelog -->
 
+## 8.9.1
+
+- Updated dependencies
+
 ## 8.9.0
 
 - Implemented `TASK_CLEANUP_UNUSED_DAYS` environment variable
