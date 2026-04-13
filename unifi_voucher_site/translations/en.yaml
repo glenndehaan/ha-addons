@@ -35,6 +35,9 @@ configuration:
   printers:
     name: Printers
     description: Enable/disable the printers and setup available printers, currently supported - pdf,escpos ip (Example - pdf,192.168.1.10)
+  printers_layout:
+    name: Printers Layout
+    description: Defines the layout format used when printing vouchers
   smtp_from:
     name: SMTP From
     description: SMTP Mail from email address

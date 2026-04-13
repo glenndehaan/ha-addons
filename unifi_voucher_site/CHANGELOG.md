@@ -1,5 +1,12 @@
 <!-- https://developers.home-assistant.io/docs/apps/presentation#keeping-a-changelog -->
 
+## 8.10.0
+
+- Updated dependencies
+- Implemented `PRINTERS_LAYOUT` environment variable
+- Implemented full, slim_qr and slim print layouts
+- Updated README.md
+
 ## 8.9.2
 
 - Updated dependencies
