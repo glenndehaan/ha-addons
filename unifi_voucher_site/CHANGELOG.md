@@ -1,5 +1,10 @@
 <!-- https://developers.home-assistant.io/docs/apps/presentation#keeping-a-changelog -->
 
+## 8.11.0
+
+- Updated dependencies
+- Implemented delete confirmation dialog
+
 ## 8.10.0
 
 - Updated dependencies
