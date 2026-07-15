@@ -1,5 +1,12 @@
 <!-- https://developers.home-assistant.io/docs/apps/presentation#keeping-a-changelog -->
 
+## 8.11.1
+
+- Updated dependencies
+- Update NodeJS to v24
+- Update Alpine Linux to 3.24
+- Update GitHub actions dependencies
+
 ## 8.11.0
 
 - Updated dependencies
