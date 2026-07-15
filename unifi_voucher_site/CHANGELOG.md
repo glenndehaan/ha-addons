@@ -1,5 +1,12 @@
 <!-- https://developers.home-assistant.io/docs/apps/presentation#keeping-a-changelog -->
 
+## 8.12.0
+
+- Updated info.js for UniFi Cloud configuration
+- Updated README.md
+- Fix incorrect `UNIFI_SITE_MANAGER` default value
+- Add support for remote Unifi Site Manager connection (Contribution by: @brandong-oly)
+
 ## 8.11.1
 
 - Updated dependencies
